@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 0.9375rem;
     line-height: 1.7;
     background: var(--very-dark-blue);
@@ -56,7 +56,6 @@ li + li {
 }
 
 ul strong {
-    font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     line-height: 1.2;
     display: block;
@@ -64,6 +63,7 @@ ul strong {
 }
 
 ul span {
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 0.875rem;
     color: var(--white-60);
     text-transform: uppercase;
@@ -122,7 +122,7 @@ ul span {
     }
 
     p {
-        max-width: 400px;
+        max-width: 380px;
         flex: 1;
     }
 
@@ -131,7 +131,7 @@ ul span {
     }
 
     li {
-        margin-right: 4rem;
+        margin-right: 3.75rem;
     }
 
     li + li {
