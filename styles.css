@@ -109,10 +109,14 @@ ul span {
     font-size: 11px;
     text-align: center;
     margin-bottom: 2rem;
-    display: none;
 }
 
 .attribution a {
+    color: var(--white);
+}
+
+.attribution a:hover,
+.attribution a:focus {
     color: var(--soft-violet);
 }
 
@@ -165,5 +169,12 @@ ul span {
         text-align: left;
         display: flex;
         flex-direction: column;
+    }
+
+    .attribution {
+        width: 100%;
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
     }
 }
